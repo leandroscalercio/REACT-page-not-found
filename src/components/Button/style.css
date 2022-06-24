@@ -1,0 +1,18 @@
+button {
+  font-family: 'Space Mono', monospace;
+  text-transform: uppercase;
+  height: 68px;
+  width: 216px;
+  border: none;
+  cursor: pointer;
+
+  background: #333333;
+  color: #ffffff;
+}
+
+@media (max-width: 375px) {
+  button {
+    margin-left: 24px;
+    margin-bottom: 155px;
+  }
+}

@@ -1,0 +1,19 @@
+footer p {
+  font-family: 'Montsserat', monospace;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+span {
+  text-decoration: underline;
+}
+
+@media (max-width: 375px) {
+  footer p {
+    font-size: 11px;
+  }
+}
